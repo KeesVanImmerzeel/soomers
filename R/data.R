@@ -4,7 +4,7 @@
 #'
 #' @format A data frame with the variables
 #' \describe{
-#'   \item{CO2uitstoot}{price in dollars}
+#'   \item{CO2uitstoot}{price in dollar}
 #'   \item{archetype}{price in dollars}
 #'   \item{archetype_id}{price in dollars}
 #'   \item{bron}{price in dollars}
