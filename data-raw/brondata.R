@@ -98,4 +98,6 @@ x %<>% dplyr::mutate_at(vars(ends_with("_id")), as.character) %>% dplyr::mutate(
 # Vul de brondata aan met deze id's.
 brondata %<>% dplyr::full_join(x)
 
+brondata %<>% dplyr::select(c("drooglegging", "slootafstand", "CO2uitstoot", "id"))
+
 usethis::use_data(brondata, overwrite = TRUE, internal=TRUE)
